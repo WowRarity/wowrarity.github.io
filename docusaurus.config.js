@@ -8,7 +8,7 @@ module.exports = {
   url: 'https://wowrarity.github.io',
   baseUrl: '/',
   trailingSlash: true, // required for GitHub pages?
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/raritylogo_discordbg_9sP_icon.ico',
   organizationName: 'WowRarity',
