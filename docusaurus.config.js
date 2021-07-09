@@ -7,11 +7,12 @@ module.exports = {
   tagline: '',
   url: 'https://wowrarity.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  trailingSlash: true, // required for GitHub pages?
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/raritylogo_discordbg_9sP_icon.ico',
-  organizationName: 'Rarity',
-  projectName: 'Rarity',
+  organizationName: 'WowRarity',
+  projectName: 'Documentation',
   themeConfig: {
     navbar: {
       title: 'Rarity Docs',
