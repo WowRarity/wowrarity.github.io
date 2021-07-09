@@ -3,81 +3,134 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Rarity Docs',
+  tagline: '',
+  url: 'https://wowrarity.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/raritylogo_discordbg_9sP_icon.ico',
+  organizationName: 'Rarity', // Usually your GitHub org/user name.
+  projectName: 'Rarity', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Rarity Docs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Rarity Logo',
+        src: 'img/RarityLogo_DiscordBG.png',
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
+          href: "/manual/",
           position: 'left',
-          label: 'Tutorial',
+          label: 'User Manual',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: "/docs/",
+          position: 'left',
+          label: 'Developer Hub',
+        },
+        {
+          href: "/faq/",
+          position: 'left',
+          label: 'Questions and Answers',
+        },
+        {
+          label: 'Discord',
+          href: 'https://discord.gg/sQ3UqtSh6m',
           position: 'right',
         },
+        {
+          href: 'https://github.com/WowRarity/Rarity',
+          label: 'GitHub',
+          position: 'right',
+        }
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: "For Players",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "Custom Items",
+              href: "/manual/custom-items"
+            },
+            {
+              label: "Statistical Data",
+              href: "/manual/accessing-historical-data"
+            },
+            {
+              label: "Importing Items",
+              href: "/manual/importing-items"
+            },
+            {
+              label: "Creating Item Packs",
+              href: "/manual/creating-item-packs"
+            },
+            {
+              label: "Troubleshooting",
+              href: "/manual/troubleshooting"
+            },
+          ]
+        },
+        {
+          title: 'For Developers',
+          items: [
+            {
+              label: 'Getting Started',
+              to: '/docs/getting-started',
+            },
+            {
+              label: 'API Reference',
+              to: '/docs/api-reference',
+            },
+            {
+              label: 'Item Database',
+              to: '/docs/item-database',
+            },
+            {
+              label: 'Quality Assurance',
+              to: '/docs/quality-assurance',
+            },
+            {
+              label: 'Localization',
+              to: '/docs/localization',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Project Site',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'CurseForge',
+              href: 'https://www.curseforge.com/wow/addons/rarity',
             },
+            {
+              label: 'WowAce',
+              href: 'https://www.wowace.com/projects/rarity',
+            },
+          ],
+        },
+        {
+          title: 'Community Hubs',
+          items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              href: 'https://discord.gg/sQ3UqtSh6m',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/WowRarity/Rarity',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2011-${new Date().getFullYear()} Rarity Development Team and Contributors.`,
+    },
+    colorMode: {
+      disableSwitch: true,
     },
     prism: {
       theme: lightCodeTheme,
@@ -90,15 +143,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/WowRarity/Rarity/edit/main/docusaurus/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/WowRarity/Rarity/edit/main/docusaurus/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
