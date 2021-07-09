@@ -140,6 +140,8 @@ module.exports = {
     },
     colorMode: {
       disableSwitch: true,
+      respectPrefersColorScheme: false,
+      defaultMode: 'dark'
     },
     prism: {
       theme: lightCodeTheme,
