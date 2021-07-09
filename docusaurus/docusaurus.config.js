@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/raritylogo_discordbg_9sP_icon.ico',
-  organizationName: 'Rarity', // Usually your GitHub org/user name.
-  projectName: 'Rarity', // Usually your repo name.
+  organizationName: 'Rarity',
+  projectName: 'Rarity',
   themeConfig: {
     navbar: {
       title: 'Rarity Docs',
@@ -28,7 +28,7 @@ module.exports = {
         {
           href: "/docs/",
           position: 'left',
-          label: 'Developer Hub',
+          label: 'Developer Center',
         },
         {
           href: "/faq/",
@@ -54,15 +54,15 @@ module.exports = {
           title: "For Players",
           items: [
             {
-              label: "Custom Items",
+              label: "Adding Custom Items",
               href: "/manual/custom-items"
             },
             {
-              label: "Statistical Data",
+              label: "Viewing Statistical Data",
               href: "/manual/accessing-historical-data"
             },
             {
-              label: "Importing Items",
+              label: "Importing Item Strings",
               href: "/manual/importing-items"
             },
             {
@@ -72,6 +72,10 @@ module.exports = {
             {
               label: "Troubleshooting",
               href: "/manual/troubleshooting"
+            },
+            {
+              label: "FAQ",
+              href: "/faq"
             },
           ]
         },
@@ -97,6 +101,10 @@ module.exports = {
             {
               label: 'Localization',
               to: '/docs/localization',
+            },
+            {
+              label: 'Tools',
+              to: '/tools',
             },
           ],
         },
