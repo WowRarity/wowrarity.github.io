@@ -22,7 +22,7 @@ module.exports = {
       },
       items: [
         {
-          href: "/manual/",
+          href: "/docs/manual/",
           position: 'left',
           label: 'User Manual',
         },
@@ -32,9 +32,24 @@ module.exports = {
           label: 'Developer Center',
         },
         {
-          href: "/faq/",
+          href: "/docs/faq/",
           position: 'left',
           label: 'Questions and Answers',
+        },
+        {
+          href: "/docs/known-issues/",
+          position: 'left',
+          label: 'Known Issues',
+        },
+        {
+          href: '/docs/changelogs',
+          position: 'left',
+          label: 'Changelogs',
+        },
+        {
+          href: "/docs/reporting-a-problem",
+          position: 'left',
+          label: 'Report a Problem',
         },
         {
           label: 'Discord',
@@ -56,27 +71,27 @@ module.exports = {
           items: [
             {
               label: "Adding Custom Items",
-              href: "/manual/custom-items"
+              href: "/docs/manual/custom-items"
             },
             {
               label: "Viewing Statistical Data",
-              href: "/manual/accessing-historical-data"
+              href: "/docs/manual/accessing-historical-data"
             },
             {
               label: "Importing Item Strings",
-              href: "/manual/importing-items"
+              href: "/docs/manual/importing-items"
             },
             {
               label: "Creating Item Packs",
-              href: "/manual/creating-item-packs"
+              href: "/docs/manual/creating-item-packs"
             },
             {
               label: "Troubleshooting",
-              href: "/manual/troubleshooting"
+              href: "/docs/manual/troubleshooting"
             },
             {
               label: "FAQ",
-              href: "/faq"
+              href: "/docs/faq"
             },
           ]
         },
@@ -84,33 +99,33 @@ module.exports = {
           title: 'For Developers',
           items: [
             {
-              label: 'Getting Started',
+              label: 'Getting Started Guide',
               to: '/docs/getting-started',
             },
             {
-              label: 'API Reference',
-              to: '/docs/api-reference',
+              label: 'Item Database Schema',
+              to: '/docs/item-database',
             },
             {
-              label: 'Item Database',
-              to: '/docs/item-database',
+              label: 'Localization System',
+              to: '/docs/localization',
             },
             {
               label: 'Quality Assurance',
               to: '/docs/quality-assurance',
             },
             {
-              label: 'Localization',
-              to: '/docs/localization',
+              label: 'API Reference',
+              to: '/docs/api-reference',
             },
             {
               label: 'Tools',
-              to: '/tools',
+              to: '/docs/tools',
             },
           ],
         },
         {
-          title: 'Project Site',
+          title: 'Community Hubs',
           items: [
             {
               label: 'CurseForge',
@@ -120,11 +135,6 @@ module.exports = {
               label: 'WowAce',
               href: 'https://www.wowace.com/projects/rarity',
             },
-          ],
-        },
-        {
-          title: 'Community Hubs',
-          items: [
             {
               label: 'Discord',
               href: 'https://discord.gg/sQ3UqtSh6m',
@@ -135,8 +145,25 @@ module.exports = {
             },
           ],
         },
+        {
+          title: 'Support Us',
+          items: [
+            {
+              label: 'Read This First',
+              href: '/docs/about-donations',
+            },
+            {
+              label: 'Patreon',
+              href: 'https://www.patreon.com/RDevW',
+            },
+            {
+              label: 'PayPal',
+              href: 'https://www.paypal.com/donate?hosted_button_id=3798L8QNTARJ6',
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © 2011-${new Date().getFullYear()} Rarity Development Team and Contributors.`,
+      copyright: `<small>Copyright © 2011-${new Date().getFullYear()} Rarity Development Team and contributors.</small>`,
     },
     colorMode: {
       disableSwitch: true,
