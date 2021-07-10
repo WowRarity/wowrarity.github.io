@@ -8,27 +8,39 @@ We've created some resources that should make it easier to use the addon and wor
 
 ### For Players
 
-To help you achieve common tasks while using the addon, we've created a manual:
+To help you achieve common tasks while using the addon, we've created a [user manual](/docs/manual):
 
-* If you need to track items that aren't supported out of the box, you'll want to [add Custom Items](/manual/custom-items)
-* To see what statistics Rarity gathered while you were playing, simply [inspect the History](/manual/accessing-historical-data) for any given item
-* You can [import Item Packs](/manual/importing-items) to benefit from exports that others have already created and add them as custom items
-* Or you could [create one](/manual/creating-item-packs) yourself and share it with your fellow players so that they can import it
-* In the unfortunate event that you're encountering an issue, we hope that this [Troubleshooting Guide](/manual/troubleshooting) will help
+* If you need to track items that aren't supported out of the box, you'll want to [add Custom Items](/docs/manual/tracking-custom-items)
+* To see what statistics Rarity gathered while you were playing, simply [inspect the History](/docs/manual/accessing-historical-data) for any given item
+* You can [import Item Packs](/docs/manual/importing-items) to benefit from exports that others have already created and add them as custom items
+* Or you could [create one](/docs/manual/creating-item-packs) yourself and share it with your fellow players so that they can import it
+* In the unfortunate event that you're encountering an issue, we hope that this [Troubleshooting Guide](/docs/manual/troubleshooting) will help
 
 ### For Developers
 
-We also provide documentation on the more technical aspects of the addon:
+We also provide [technical documentation](/docs) on various aspects of the codebase:
 
+* Interested in contributing or making changes, but not sure where to start? [This way](/docs/getting-started), please!
 * For an overview of the item database layout, check out the [Database Schema](/docs/item-database)
 * If you want to work with the localization system, please read this: [Localization Guide](/docs/localization)
-* To look up what functionality is available, head to the [API Reference](/docs/api-reference)
+* To look up what functionality is available in code, head to the [API Reference](/docs/api-reference)
 * In order to learn about testing and documentation, visit our [QA Hub](/docs/quality-assurance)
-* Interested in contributing or making changes, but not sure where to start? [This way](/docs/getting-started), please!
 
 ### Questions and Answers
 
-There are some questions we keep getting over and over again, so we wrote down the answer [here](/faq).
+There are some questions we keep getting over and over again, so we wrote down the answer [here](/docs/faq).
+
+### Known Issues
+
+Due to the nature of addons having to rely on Blizzard's World of Warcraft API and various other technical limitations, some long-standing issues exist that we can't currently resolve. A list of them can be found [here](/docs/known-issues).
+
+### Changelogs
+
+If you're curious as to how the addon has evolved, feel free to browse the many [changelogs](/docs/changelogs) we've made available.
+
+## How to Report Problems
+
+It's a sad reality that no software works flawlessly; sooner or later you'll probably encounter a glitch in the matrix. Luckily, there are many ways for you to [contact the development team](/docs/reporting-a-problem) and (hopefully) get it fixed.
 
 ## Join the Community
 
