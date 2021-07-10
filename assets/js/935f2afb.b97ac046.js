@@ -1,1 +1,0 @@
-(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[53],{9054:function(e){"use strict";e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","banner":"none","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"Hello World","href":"/docs/intro"}]},"permalinkToSidebar":{"/docs/intro":"tutorialSidebar"}}')}}]);
