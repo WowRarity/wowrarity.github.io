@@ -28,4 +28,16 @@ This will give you direct access to the Lua table that Rarity stores its databas
 
 :::
 
-Use this at your own peril! Only manually edit in case of emergency. If you lost your attempts and wish to see whether they're still in there, you may however need to open the database and restore it from ``Rarity.lua.bak`` (located in the same folder) if it's empty.
+Use this at your own peril! Only manually edit in case of emergency.
+
+## Restoring Database Backups
+
+If you lost your attempts and wish to see whether they're still in there, you may however need to open the database and restore it from ``Rarity.lua.bak`` (located in the same folder) if it's empty. You can usually guess which version has more data inside because the file size will be bigger, and then restore the larger one if needed.
+
+The WOW client creates this backup file automatically, but it's overwritten with the latest version whenever the database itself is saved to disk. If you suspect some or all data was lost, you should go and save the current backup file immediately **without exiting the game or logging out**, as this prompts the client to update the SavedVariables. Otherwise the backup file will be useless to you.
+
+:::note
+
+Frequently, it will be too late to restore data from ``Rarity.lua.bak`` by the time you notice there's an issue, which is why having a backup strategy for your personal data is highly recommended. You can (and should) use automated tools for this so you never have to think about it.
+
+:::
