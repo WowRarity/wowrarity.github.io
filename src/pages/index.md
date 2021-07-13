@@ -59,5 +59,5 @@ The addon is and always will be free, but you can still help to make it better:
 * Improve the documentation by helping with writing, translating, or simply by giving feedback
 * Participate in discussions and answer questions on [Discord](https://discord.gg/sQ3UqtSh6m) to help other community members out
 * Create, update, review or confirm [GitHub Issues](https://github.com/WowRarity/Rarity/issues) when you have some information that could be of use
-* Contribute code or database updates directly, by creating [Pull Requests](https://github.com/WowRarity/Rarity/pulls) on GitHub
+* Contribute code or database updates directly, by creating [Pull Requests](https://github.com/WowRarity/Rarity/pulls) on GitHub ( [here's how](/docs/getting-started))
 * Donations via [PayPal](https://www.paypal.com/donate?hosted_button_id=3798L8QNTARJ6) or [Patreon](https://www.patreon.com/RDevW) are another way of showing your support (but please [read this](/faq/about-donations) first)
