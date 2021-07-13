@@ -19,7 +19,7 @@ Needless to say, this is a *very* basic initial proof-of-concept. A more advance
 
 If you need more data than what the above display includes, you currently have two (somewhat awkward) options:
 
-* You can go to your ``World of Warcraft\WTF\<AccountName>\SavedVariables\`` folder and open ``Rarity.lua`` in a text editor
+* You can go to your ``World of Warcraft\_retail_\WTF\Account\<AccountID>\SavedVariables\`` folder and open ``Rarity.lua`` in a text editor
 * Ingame, you can type ``/tinspect Rarity.db.profile`` to open the database in Blizzard's Table Inspector
 
 :::danger Beware
