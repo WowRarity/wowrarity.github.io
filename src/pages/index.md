@@ -12,7 +12,7 @@ To help you achieve common tasks while using the addon, we've created a [user ma
 
 * If you need to track items that aren't supported out of the box, you'll want to [add Custom Items](/docs/manual/tracking-custom-items)
 * To see what statistics Rarity gathered while you were playing, simply [inspect the History](/docs/manual/accessing-historical-data) for any given item
-* You can [import Item Packs](/docs/manual/importing-items) to benefit from exports that others have already created and add them as custom items
+* You can [import Item Packs](/docs/manual/importing-items) to benefit from exports that [others have already created](/docs/item-packs) and add them as custom items
 * Or you could [create one](/docs/manual/creating-item-packs) yourself and share it with your fellow players so that they can import it
 * In the unfortunate event that you're encountering an issue, we hope that this [Troubleshooting Guide](/docs/manual/troubleshooting) will help
 
