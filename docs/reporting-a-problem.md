@@ -19,3 +19,13 @@ You should carefully read the [FAQ](/docs/faq) before posting, as your question 
 Please refrain from sending personal messages to individual team members, and use the public channels instead! This way, you allow everyone to benefit and others can pitch in to assist you, which means you're likely to get a better response faster.
 
 :::
+
+Finally, **you must provide actionable information** as part of your report, or we simply won't be able to help you. Actionable means that we can either immediately see the cause of the issue, or reproduce it with relatively little effort in order to find the problem.
+
+Examples for reports that developers can work with:
+
+* When doing X, Y isn't working and I get an error (include the error message)
+* After upgrading to version X, some thing Y is no longer working (include the current and last working version)
+* Attempts for X item aren't counted and here's a relevant debug log (include screenshots of the log)
+
+It's recommended to enable ``/rarity debug`` in advance (if you anticipate it happening again),  or type ``/rarity dump`` immediately after encountering the issue in order to get a debug log to include with your report.
