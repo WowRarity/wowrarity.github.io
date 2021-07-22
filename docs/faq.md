@@ -35,7 +35,7 @@ Please go [here](https://www.wowace.com/projects/rarity/localization) and verify
 
 ### :small_orange_diamond: I've somehow lost my attempts! Can they be restored?
 
-his problem is likely caused by your client corrupting the saved variables file, e.g. in the event of an abrupt shutdown.
+This problem is likely caused by your client corrupting the saved variables file, e.g. in the event of an abrupt shutdown.
 
 Your best bet is searching for a ``Rarity.lua.bak`` file in your WTF folder and to manually restore it (by replacing the Rarity.lua file with it after making a backup) and to keep automated backups of your settings in the future. The file can usually be found under ``WTF/Account/<YourAccountName>/SavedVariables/Rarity.lua.bak`` inside your WOW folder.
 
