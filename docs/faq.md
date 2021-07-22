@@ -45,7 +45,6 @@ Rarity will restore any attempts it can query via Blizzard's statistics API, but
 
 Type ``/rarity``, or press ESCAPE and select Interface, click the AddOns tab, and scroll down to find the Rarity category. Within the Rarity options, choose the tab that applies (Mounts, Companions, Items, or Custom). Find the item you want to adjust in the list that appears on the left, and click it. Edit the "Attempts" number.
 
-
 ## Attempts Detection
 
 ### :small_orange_diamond: You say Rarity automatically uses statistics to determine attempt counts, but it's not working for some of my items. Why?
